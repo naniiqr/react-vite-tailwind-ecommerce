@@ -1,8 +1,10 @@
+import Layout from "../../Components/Layout";
+
 function MyAccount() {
     return (
-      <div className='bg-fuchsia-600'>
+      <Layout>
         MyAccount
-      </div>
+      </Layout>
     )
   }
   
