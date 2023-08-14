@@ -8,9 +8,9 @@ const ProductDetail = () => {
     
     return (
        <aside 
-       className={`${context.isProductDetailOpen ? 'flex' : 'hidden'} product-detail flex flex-col fixed right-0 border border-black rounded-lg bg-white`}>
+       className={`${context.isProductDetailOpen ? 'flex' : 'hidden'} product-detail flex flex-col fixed right-0 border-2 border-cyan-950 rounded-lg bg-sky-100`}>
         <div className='flex justify-between items-center p-6'>
-            <h2 className='font-medium text-xl'>Detail</h2>
+            <h2 className='font-bold text-2xl text-cyan-950'>Detail</h2>
             <div>
             <XMarkIcon
              onClick={() => context.closeProductDetail()}
